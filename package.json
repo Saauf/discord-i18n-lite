@@ -1,0 +1,51 @@
+{
+  "name": "discord-i18n-lite",
+  "version": "0.1.0",
+  "description": "Tiny, zero-dependency per-server language switching for Discord bots: translations, localized slash command names and pluggable storage.",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "i18n",
+    "localization",
+    "translation",
+    "slash-commands",
+    "bot"
+  ],
+  "author": "Saauf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saauf/discord-i18n-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Saauf/discord-i18n-lite/issues"
+  },
+  "homepage": "https://github.com/Saauf/discord-i18n-lite#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "discord.js": ">=14"
+  },
+  "peerDependenciesMeta": {
+    "discord.js": {
+      "optional": true
+    }
+  }
+}
