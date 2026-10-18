@@ -1,6 +1,7 @@
 # discord-i18n-lite
 
 [![CI](https://github.com/Saauf/discord-i18n-lite/actions/workflows/ci.yml/badge.svg)](https://github.com/Saauf/discord-i18n-lite/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/discord-i18n-lite.svg)](https://www.npmjs.com/package/discord-i18n-lite)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Per-server language switching for Discord bots. It is small and has no dependencies.
@@ -126,9 +127,9 @@ const store = {
 
 Short codes like `en`, `es`, `pt`, `sv` and `zh` expand to Discord's regional locales. Codes Discord already uses, such as `pl`, `de` or `ja`, map directly.
 
-## Background
+## Used by
 
-Extracted from [discord-twitter-simulator](https://github.com/Saauf/discord-twitter-simulator), a Twitter-style posting bot for roleplay servers.
+- [discord-twitter-simulator](https://github.com/Saauf/discord-twitter-simulator) – Twitter-style posts for roleplay servers, where this library was extracted from
 
 ## License
 
